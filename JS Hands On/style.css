@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+}
+#fName{
+    margin-left: 40px;
+}
+#mName{
+    margin-left: 24px;
+}
+#lName{
+    margin-left: 41px;
+}
+#fullName{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
