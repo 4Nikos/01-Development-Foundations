@@ -5,12 +5,15 @@ function selectTheme(){
   if (selection=="Light"){
     // console.log("light was chosen");
     // var setColor = document.getElementsByTagName("body")[0].getAttribute('bgcolor').innerHTML="#282824";
-    document.getElementById("body").setAttribute("bgcolor", "#282824");
-    console.log(setColor);
+    document.getElementById("body").setAttribute("bgcolor", "#ebe8e7");
   }
   else if (selection=="Dark") {
-    console.log("Dark was chosen");
-
+    // console.log("Dark was chosen");
+    document.getElementById("body").setAttribute("bgcolor", "#7e7e7e");
+  }
+  else if (selection=="Blue") {
+    // console.log("Dark was chosen");
+    document.getElementById("body").setAttribute("bgcolor", "#33DBFF");
   }
 }
 function goDark(){
