@@ -1,0 +1,45 @@
+
+body{
+
+  background-color: #12bee5;
+  text-align: center;
+  font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+img {
+
+    width: 90px;
+    height: 90px;
+    float: left;
+    }
+
+#idCard {
+    background-color: #e8cccc;
+    margin: auto;
+    border: 5px solid black;
+    border-radius: 25px;
+    height: 14em;
+    width: 25em;
+    }
+#postFullName{
+      font-size: 26px;
+      font-weight: bold;
+    }
+#postAge{
+      text-align: left;
+      padding-left: 10px;
+    }
+#postPhoneNumber{
+      text-align: left;
+      padding-left: 10px;
+    }
+#postAddress{
+      text-align: left;
+      padding-left: 10px;
+    }
+#button{
+  margin: 4px 0px 4px 0px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
