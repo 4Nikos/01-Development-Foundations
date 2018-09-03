@@ -99,5 +99,5 @@ for (var i=0; i<students.length; i++){
 console.log(students);
 
 function showmeStudents (){
-  document.getElementById("output").innerHTML==students;
+  document.getElementById("output").innerHTML=students;
 }
