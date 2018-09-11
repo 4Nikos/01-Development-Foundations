@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .menu-container {
+    color: white;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between; */
+  }
+  
+  .menu {
+    /* border: 1px solid white; */
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .links {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .login {
+    margin-left: 20px;
+  }
+  .header-container {
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: stretch;
+    align-items: baseline; */
+  }
+  .image-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-grid-item {
+    border:1px solid gray;
+    background-color: lightgrey;
+    width: 300px;
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-grid-item img{
+    height:120px;
+    width: auto;
+  }
