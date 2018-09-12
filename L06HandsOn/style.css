@@ -1,0 +1,17 @@
+body{
+    background-color: lightgray;
+
+}
+.jumbotron{
+    background-color: rgb(91, 91, 150);
+    color: white;
+    font-size: 20px;
+}
+#search {
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
