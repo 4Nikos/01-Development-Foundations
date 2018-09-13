@@ -1,0 +1,10 @@
+body{
+    background-color: darkgrey;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Ruslan Display', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+}
