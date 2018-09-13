@@ -3,11 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Bootstrap Hands On</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display|Shadows+Into+Light" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -34,7 +36,8 @@
                 <li>
                     <a href="#">About</a>
                 </li>
-                <li><a href="#">Contact</a>
+                <li>
+                    <a href="#">Contact</a>
                 </li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
@@ -49,7 +52,7 @@
         </div>
     </nav>
     <!-- End of NavBar -->
-    <div class="container">
+    <div class="container col-xs-12">
         <!-- Tabs/Pills -->
         <ul class="nav nav-pills">
             <li class="active">
@@ -92,43 +95,120 @@
                     </li>
                 </ul>
     </div>
-    <div class="container">
-        <!-- Beginning of the Form -->
+    <br>
+    <div>
+    <div class="col-xs-12">
+        <!-- Beginning of the Form  -->
         <form class="form-horizontal">
             <div class="form-group">
-                <label for="FirstName" class="control-label col-xs-2">First Name</label>
+                <label for="FName" class="control-label col-xs-2">First Name</label>
                 <div class="col-xs-10">
-                    <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                    <input type="email" class="form-control" placeholder="First Name">
                 </div>
             </div>
             <div class="form-group">
-                <label for="Last Name" class="control-label col-xs-2">Last Name</label>
+                <label for="LName" class="myLabels control-label col-xs-2">Last Name</label>
                 <div class="col-xs-10">
-                    <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                    <input type="password" class="form-control" placeholder="Last Name">
                 </div>
             </div>
-         <div class="form-group">
-        <div class="col-xs-offset-6 col-xs-10">
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-         </div>
+            <div class="form-group">
+                <label for="PhoneNumber" class="control-label col-xs-2">Phone Number</label>
+                <div class="col-xs-10">
+                    <input type="text" class="form-control" placeholder="Phone Number">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="Email" class="control-label col-xs-2">Email</label>
+                <div class="col-xs-10">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+
+
         </form>
     </div>
+    <!-- Begining of Table -->
+    <div class="tableArea col-xs-12">
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr class="active">
+                    <th>Row</th>
+                    <th>Specie Name</th>
+                    <th>Location</th>
+                    <th>Spotted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="default">
+                    <td>1</td>
+                    <td>Black-capped Chickadee</td>
+                    <td>Seattle, WA</td>
+                    <td>09/10/2018</td>
+                </tr>
+                <tr class="default">
+                    <td>2</td>
+                    <td>WesterTanager</td>
+                    <td>Monroe, WA</td>
+                    <td>07/02/2018</td>
+                </tr>
+                <tr class="default">
+                    <td>3</td>
+                    <td>Yellow-rumped warbler</td>
+                    <td>Bothell, WA</td>
+                    <td>05/03/2017</td>
+                </tr>
+                <tr class="default">
+                    <td>3</td>
+                    <td>Bufflehead</td>
+                    <td>Kirkland, WA</td>
+                    <td>11/19/2018</td>
+                </tr>
+            </tbody>
+        </table>
 
-
-
-
-    <!-- <div class="page-header">
-    <h1>The Power of Bootstrap</h1>
+    </div>
 </div>
+<!-- Buttons -->
+    <div class="container col-sm-12">
+        <h2>Button Types</h2>
+    </div>
+    <div class="container">
+        <button type="button" class="btn-xs">Basic</button>&nbsp
+        <button type="button" class="btn-xs btn-default">Default</button>&nbsp
+        <button type="button" class="btn-xs btn-primary">Primary</button>&nbsp
+        <button type="button" class="btn-xs btn-success">Success</button>&nbsp
+    </div>    
+    <div class="container">
+        <button type="button" class="btn-xs btn-info">Info</button>&nbsp
+        <button type="button" class="btn-xs btn-warning">Warning</button>&nbsp
+        <button type="button" class="btn-xs btn-danger">Danger</button>&nbsp
+        <button type="button" class="btn-xs btn-link">Link</button>&nbsp
+    </div>
+    <!-- Button Groups -->
+    <div class="container">
+        <h2>Button Group</h2>
+    </div>
+    <div class="container">
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Beginner</button>
+            <button type="button" class="btn btn-primary">Hobbyist</button>
+            <button type="button" class="btn btn-primary">Professional</button>
+        </div>
+    </div>
+<!-- Another header -->
+    <div class="page-header"></div>
+    <h1>The Power of Bootstrap</h1>
+<!-- Tabs with drop down -->
+    <div class="container">
 <ul class="nav nav-tabs">
         <li class="active">
-            <a href="index.html">
+            <a href="#">
                 <span class="glyphicon glyphicon-home"></span> Start
             </a>
         </li>
         <li>
-            <a href="grid.html">
+            <a href="#">
                 <span class="glyphicon glyphicon-tasks"></span> Grid
             </a>
         </li>
@@ -151,25 +231,20 @@
                 </li>
                 </ul>
         <li>
-                <a href="more.html">
+                <a href="#">
                     <span class="glyphicon glyphicon-info-sign"></span> More
                 </a>
             </li>
     </ul>
+</div>
     <br>
-<div class="jumbotron">
+    <!-- Jumbotron -->
+    <div class="container">
+        <div class="jumbotron">
         Bootstrap is a free and open-source front-end framework for designing websites and web applications. It contains HTML- and CSS-based design templates for typography, forms, buttons, navigation and other interface components, as well as optional JavaScript extensions.
 </div>
-<div class="row"></div>
-<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12"></div>
-
-
-
-
-
-
-
-    </div>
+</div>
+<!-- Modal -->
         <div id="myModal" class="modal fade">
                 <div class="modal-dialog">
                     <div class="modal-content">
