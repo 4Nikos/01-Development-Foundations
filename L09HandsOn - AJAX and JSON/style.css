@@ -1,0 +1,23 @@
+body{
+    background-color: lightgoldenrodyellow;
+}
+#autoLoad {
+    font-size: 40px;
+    color: rgb(6, 6, 134);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#loadBioHere {
+    font-size: 40px;
+    color: rgb(20, 82, 5);
+    font-family: 'Gloria Hallelujah', cursive;
+}
+#pInfo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#btnLoad {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+}
